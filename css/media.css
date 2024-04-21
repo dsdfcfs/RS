@@ -1,0 +1,45 @@
+@media (max-width: 1180px) {
+	.barcode__text {
+		line-height: 126px;
+		font-size: 127px;
+	}
+	.barcode::after {
+		bottom: -11%;
+	}
+}
+
+@media (max-width: 850px) {
+	.barcode__text {
+		line-height: 108px;
+		font-size: 107px;
+	}
+	.barcode::after {
+		bottom: -6%;
+	}
+}
+
+@media (max-width: 704px) {
+	.header__hero .container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.barcode {
+		background-color: black;
+		height: 1px;
+	}
+
+	.barcode span {
+		display: none;
+	}
+}
+
+@media (max-width: 570px) {
+	.header__description {
+		margin: 0 24px;
+	}
+
+	.container {
+		width: 89%;
+	}
+}
